@@ -13,11 +13,24 @@
     "updates": {
       "fallbackToCacheTimeout": 0
     },
+    "platforms": [
+      "android",
+      "ios"
+    ],
     "assetBundlePatterns": [
       "**/*"
     ],
     "ios": {
       "supportsTablet": true
+    },
+    "android": {
+      "package": "com.ihm.PontoConstrutora",
+      "versionCode": 3,
+      "config": {
+        "googleMaps": {
+          "apiKey": "AIzaSyCId7luXPPRPJCDIuAk0j-D8ZCKRLYTZCc"
+        }
+      }
     },
     "web": {
       "favicon": "./assets/favicon.png"
